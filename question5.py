@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #reduce function
 
 from functools import reduce
@@ -11,3 +12,13 @@ def greater(a,b):
 result = reduce(greater,l)
 
 print(result)
+=======
+i=int(input("enter a number: "))
+
+table=[ i*n for n in range (1,11)]
+
+print(table)
+
+with open("tables.txt", "a") as f:
+    f.write(f"table of {i} is {table} \n")
+>>>>>>> 9717ecac3e7de8b95e402c145e75a2b25f53dbbc
